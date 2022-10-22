@@ -16,7 +16,7 @@ def read_results():
 
 def plot_results(n_nodes, n_gflops):
     plt.title("Best GFLOPS achieved against nodes used.")
-    plt.xlabel("number of nodes")
+    plt.xlabel("Number of nodes")
     plt.ylabel("GFLOPS")
     plt.plot(n_nodes, n_gflops, '-o')
     plt.show()
